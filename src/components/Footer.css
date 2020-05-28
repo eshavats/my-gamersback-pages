@@ -1,0 +1,13 @@
+/* Footer */
+
+#footer {
+    padding: 2.5% 15%;
+    text-align: center;
+    background-color: black;
+  }
+
+  .end {
+    color: #414141;
+    letter-spacing: 2px;
+    font-size: 1.5vw;
+  } 

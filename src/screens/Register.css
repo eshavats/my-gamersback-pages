@@ -1,0 +1,41 @@
+.register {
+    background-color: black;
+    /* height: 100vw; */
+    text-align: center;
+}
+
+.register-form {
+    margin: 0.5% 10% 3%;
+    color: white;
+    text-align: left;
+}
+
+h1 {
+    font-family: 'DM Mono', monospace;
+    font-size: 5vw;
+    letter-spacing: 2px;
+    display: inline-block;
+    color: #414141;
+    font-weight: lighter;
+}
+
+.form-control {
+    font-size: larger;
+    background-color: black;
+    border: 2px solid #9d0b0b;
+    border-radius: 4px;
+}
+
+.form-control:focus {
+    background-color: #fee9d7;
+    border: 2px solid black;
+}
+
+.form-row {
+    margin: 0;
+    padding-bottom: 0;
+}
+
+.form-margin {
+    margin-top: 1%;
+}

@@ -1,0 +1,126 @@
+.navbar {
+    background-color: black;
+}
+
+#discord {
+    height: 33px;
+    width: 33px;
+    flex-direction: row;
+}
+
+/* nav a {
+    color: #9d0b0b;
+    font-size: 1.5rem;
+} */
+
+.login-label {
+    color: white;
+    font-size: 1.4vw;
+}
+
+.form {
+    margin: 2.5% 35%;
+    text-align: left;
+}
+
+.login-form {
+    text-align: center;
+    padding-top: 4%;
+}
+
+.form-control {
+    font-size: 1.5vw;
+    background-color: black;
+    border: 2px solid #9d0b0b;
+    border-radius: 4px;
+}
+
+.form-control:focus {
+    background-color: #fee9d7;
+    border: 2px solid black;
+}
+
+.form-check-label {
+    color: white;
+    font-size: 1vw;
+}
+
+.form-text {
+    color: #706c61;
+    font-size: 1vw;
+}
+
+.button {
+    font-size: 1.5vw;
+}
+
+.Login {
+    /* The image used */
+    background-image: url("./images/wallpaper.png");
+
+
+    /* Add the blur effect */
+    /* filter: blur(8px);
+    -webkit-filter: blur(8px); */
+
+    /* Full height */
+    height: 100vh;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+.fab {
+    font-size: 2vw;
+}
+
+.fab:hover {
+    color: white;
+}
+
+.instagram {
+    color: #C13584;
+}
+
+.youtube {
+    color: #ff0000;
+}
+
+.discord {
+    color: #7289da;
+}
+
+.social-icon {
+    margin: 0 5%;
+}
+
+.icons {
+    width: 10%;
+}
+
+.login-heading {
+    color: black;
+    font-size: 4.5vw;
+    font-weight: bolder;
+    margin: 0;
+}
+
+p {
+    margin: 1% auto 2%;
+    font-size: 1.7vw;
+    color: #706c61;
+    text-align: center;
+}
+
+/* @media all and (min-width: 480px) {
+    .Login {
+      padding: 2.5% 0;
+    }
+
+    .Login form {
+      margin: 0 auto;
+      max-width: 400px;
+    }
+  }  */

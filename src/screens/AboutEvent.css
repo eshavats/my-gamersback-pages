@@ -1,0 +1,220 @@
+.head {
+    color: white;
+    font-size: 4vw;
+    display: inline-block;
+    font-family: 'DM Mono', monospace;
+    letter-spacing: 2px;
+    display: inline-block;
+    font-weight: lighter;
+}
+
+nav a {
+    color: #9d0b0b;
+}
+
+.about-event {
+    /* The image used */
+    background-image: url("./images/event6.jpg");
+
+    /* Height */
+    height: 50vw;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+.about-heading {
+    padding: 3% 5%;
+}
+
+.event-logo {
+    width: 15%;
+}
+
+.about-heading p {
+    display: inline-block;
+    background-color: #5f6769;
+    color: black;
+    font-size: 3vw;
+    padding: 1.5%;
+    margin-right: 2%;
+}
+
+.about-heading h2 {
+    display: inline-block;
+    width: 30%;
+    margin-top: 1%;
+}
+
+.join {
+    margin: 0.5% 0;
+    color: white;
+    font-size: 3vw;
+}
+
+.main-content {
+    /* The image used */
+    background-image: url("./images/bar.png");
+
+    /* Full height */
+    /* height: 120vw; */
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: repeat; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.content {
+    margin: 0 4%;
+}
+
+.btn-group {
+    margin-top: 4%;
+}
+
+.about-button {
+    background-color: black;
+    color: #5f6769;
+    padding: 5% 2%;
+    width: 7em;
+    font-size: 1.6vw;
+}
+
+.about-button:hover {
+    background-color: #3c4245;
+}
+
+.register-btn {
+    border-left: solid;
+    border-radius: 50%;
+}
+
+.seats {
+    color: #3c4245;
+    font-family: 'DM Mono', monospace;
+    font-size: 2.5vw;
+}
+
+.about-heading2 {
+    color: white;
+}
+
+.about-para {
+    color: #5f6769;
+    width: 100%;
+    text-align: left;
+    font-size: 2vw;
+
+}
+
+.row {
+    display: flex;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+    flex: 50%;
+    padding: 10px;
+}
+
+.register-now {
+    /* width: 100%; */
+    padding: 5%;
+    margin-top: 10%;
+    background-color: #9d0b0b;
+}
+
+.register-now a {
+    color: white;
+    font-size: 1.3vw;
+    text-align: center;
+}
+
+.register-now:hover {
+    background-color: black;
+}
+
+.register-heading {
+    color: white;
+    font-size: 2vw;
+}
+
+.right {
+    width: 50%;
+    margin: 23%;
+    padding: 3%;
+    text-align: center;
+    border: 0.15vw solid #3c4245;
+}
+
+.about-content {
+    margin-top: 5%;
+}
+
+/* Prize Pool */
+
+/* Create three equal columns that floats next to each other */
+.column2 {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+}
+
+.row2 {
+    margin-top: 5%;
+}
+
+  /* Clear floats after the columns */
+.row2:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.about-card {
+      width: 100%;
+      height: 100%;
+      border: 0.2vw solid #9d0b0b;
+      background-color: black;
+      text-align: center;
+      padding: 10%;
+}
+
+.ch {
+    font-size: 3vw;
+    padding: 0 2%;
+}
+
+.cti {
+    font-size: 1.5vw;
+}
+
+.ct {
+    font-size: 1.5vw;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.startTime {
+      margin-top: 3%;
+}
+
+.time {
+    font-family: 'DM Mono', monospace;
+    font-size: 3vw;
+    background-color: black;
+    display: inline-block;
+    color: white;
+    padding: 1.7%;
+    margin: 3%;
+}
+
+.eventTime {
+      text-align: center;
+}

@@ -1,0 +1,18 @@
+nav {
+    background-color: black;
+}
+
+#logo-name {
+    font-family: 'Squada One', cursive;
+    font-size: 400%;
+    letter-spacing: 2px;
+    color: #9d0b0b;
+}
+
+#logo-name:hover {
+    color: #9d0b0b;
+}
+
+.button {
+    font-size: 1.5rem;
+}
