@@ -1,11 +1,17 @@
-.booking-history {
-    margin-left: 10%;
+#booking-history {
+    /* margin-left: 10%; */
+    background-image: url("./images/bar.png");
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding-top: 5%;
 }
 
 #events {
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     border-collapse: collapse;
-    width: 90%;
+    margin: 0 5%;
+    width: 80%;
+    padding-bottom: 1.5%;
 }
 
 #events td, #events th {

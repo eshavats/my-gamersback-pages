@@ -16,3 +16,43 @@ nav {
 .button {
     font-size: 1.5rem;
 }
+
+nav a {
+    color: #9d0b0b;
+}
+
+nav .dropdown {
+    font-size: 2.2vw;
+}
+
+nav .dropdown a:hover {
+    color: #414141;
+    text-decoration: none;
+}
+
+nav .dropdown-menu {
+    font-size: 1.5vw;
+}
+
+/* #events-div a:hover {
+    text-decoration: none;
+    color: #414141;
+} */
+
+nav ul {
+    margin-right: 2%;
+}
+
+nav li {
+    padding: 3%;
+    text-align: center;
+}
+
+.navbar-text .btn-outline-danger a {
+    color: #9d0b0b;
+}
+
+.navbar-text .btn-outline-danger a:hover {
+    color: white;
+    text-decoration: none;
+}

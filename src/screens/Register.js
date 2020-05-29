@@ -16,7 +16,7 @@ const Register = () => {
       );
 
     return (
-        <div className="register">
+        <div id="register">
             <Header rightElement={login} />
             <h1>SIGN UP NOW</h1>
             <div className="register-form">
@@ -52,8 +52,8 @@ const Register = () => {
                     <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St" />
                 </div>
 
-                <div class="form-row">
-                    <div class="form-group form-margin">
+                <div class="form-row form-margin">
+                    <div class="form-group col-md-6">
                     <label for="inputCity">City</label>
                     <input type="text" class="form-control" id="inputCity" />
                     </div>
@@ -84,7 +84,7 @@ const Register = () => {
                     </div>
                 </div>
                 <div className="form-row form-margin">
-                    <button type="submit" class="btn btn-outline-dark btn-block button" onClick={this.signup}>Sign in</button>
+                    <button type="submit" class="btn btn-outline-dark btn-block button">Sign in</button>
                 </div>
             </div>
             <Footer className="footer" />

@@ -3,7 +3,13 @@
     font-size: 1.5vw;
 } */
 
-.registration-head {
+#registration {
+    background-color: black;
+    /* height: 100vw; */
+    text-align: center;
+}
+
+#registration .registration-head {
     font-family: 'DM Mono', monospace;
     font-size: 5vw;
     letter-spacing: 2px;
@@ -12,50 +18,44 @@
     font-weight: lighter;
 }
 
-input[type="file"] {
+#registration input[type="file"] {
     background-color: black;
 }
 
-input[type="file"]:hover {
+#registration input[type="file"]:hover {
     cursor: pointer;
 }
 
-.input-group-append {
-    width: 23vw;
+#registration .input-group-append {
+    width: 26.5%;
 }
 
-.file:hover {
+#registration .file:hover {
     background-color: black;
 }
 
-.form-control {
+#registration .registration-form {
     font-size: larger;
     background-color: black;
     border: 2px solid #9d0b0b;
     border-radius: 4px;
 }
 
-.form-control:focus {
+#registration .registration-form:focus {
     background-color: #fee9d7;
     border: 2px solid black;
 }
 
-.form-row {
+#registration .form-row {
     margin: 0;
     padding-bottom: 0;
 }
 
-.form-margin {
+#registration .form-margin {
     margin-top: 1%;
 }
 
-.register {
-    background-color: black;
-    /* height: 100vw; */
-    text-align: center;
-}
-
-.register-form {
+#registration .register-form {
     margin: 0.5% 10% 3%;
     color: white;
     text-align: left;

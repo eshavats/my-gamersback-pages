@@ -10,7 +10,7 @@ class UserDetails extends React.Component
     render()
     {
         return (
-            <>
+            <div id="user-details">
             <Header />
             <div class="wrapper">
                 <div class="left">
@@ -59,7 +59,7 @@ class UserDetails extends React.Component
                 </div> */}
                 </div>
             </div>
-        </>
+        </div>
         );
     }
 }

@@ -11,6 +11,7 @@ class Payout extends React.Component
         return (
             <>
             <Header />
+            <div id="payment">
             <div className="heading">
             <h2>PAYMENT DETAILS</h2>
             </div>
@@ -87,6 +88,7 @@ class Payout extends React.Component
                 <p>Total <span class="price" style={{color: "black"}}><b>$30</b></span></p>
                 </div>
             </div> */}
+            </div>
             </div>
             <Footer />
             </>

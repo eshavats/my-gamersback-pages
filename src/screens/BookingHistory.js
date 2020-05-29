@@ -38,8 +38,9 @@ class BookingHistory extends React.Component
 
         return (
             <>
-            <Header leftElement={booking} />
-            <div className="booking-history">
+            <Header leftElement="BOOKING HISTORY" />
+            <div id="booking-history">
+            <center>
             <table id="events">
                 <tr>
                     <th>Event Name</th>
@@ -51,9 +52,9 @@ class BookingHistory extends React.Component
                 list={this.events}
                 renderItem={this.renderEvent}/>
             </table>
+            </center>
             </div>
 
-            <Footer />
             </>
         );
     }

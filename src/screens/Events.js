@@ -20,7 +20,8 @@ const Events = () => {
   );
 
     return (
-        <div className="outer-div">
+        <>
+        <div id="events-div">
             <Header 
             rightElement={account}
             leftElement= "TOURNAMENTS"
@@ -70,7 +71,7 @@ const Events = () => {
                 </a>
                 </div>
 
-            <div class="form-row">
+            <div class="form-row event-row">
                 <div class="col">
                 <label className="search-label">EVENT SEARCH: </label>
                 </div>
@@ -114,8 +115,9 @@ const Events = () => {
                 </div>
             </div>
 
-            <h1>DAILY TOURNAMENTS</h1>
-            <p className="tour-para">Join, play and win. Happy gaming!</p>            <div className="container" style={{ marginBottom: "5%" }}>
+            <h1 className="events-heading">DAILY TOURNAMENTS</h1>
+            <p className="tour-para">Join, play and win. Happy gaming!</p>            
+            <div className="events-container" style={{ marginBottom: "5%" }}>
                 <Card 
                     imageSrc="images/event6.jpg"
                     title="Arctic Game Week"
@@ -164,8 +166,8 @@ const Events = () => {
                     button="Book Now"
                 />
             </div>
-            <h1>EVENTS RECOMMENDED FOR YOU</h1>
-            <div className="container">
+            <h1 className="events-heading ">EVENTS RECOMMENDED FOR YOU</h1>
+            <div className="events-container">
                 <Card 
                     imageSrc="images/event6.jpg"
                     title="Arctic Game Week"
@@ -214,8 +216,9 @@ const Events = () => {
                     button="Book Now"
                 />
             </div>
-        <Footer />
         </div>
+        <Footer />
+        </>
     );
 };
 

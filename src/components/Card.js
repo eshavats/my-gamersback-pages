@@ -4,7 +4,7 @@ import "./Card.css";
 const Card = (props) => {
 
     return (
-        <div class="card">
+        <div class="card" id="main-card">
             <img class="card-img-top" src={props.imageSrc} alt="image-card-1" />
             <div class="card-body">
                 <h5 class="card-title">{props.title}</h5>
