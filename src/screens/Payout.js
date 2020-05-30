@@ -13,7 +13,7 @@ class Payout extends React.Component
             <Header />
             <div id="payment">
             <div className="heading">
-            <h2>PAYMENT DETAILS</h2>
+            <h2>Payment Details</h2>
             </div>
             <div class="row">
             <div class="col-75">
@@ -70,9 +70,9 @@ class Payout extends React.Component
                     </div>
 
                     </div>
-                    <label className="pay-label">
-                    <input type="checkbox" checked="checked" name="sameadr" required/> Confirm Details
-                    </label>
+                    {/* <label className="pay-label">
+                    <input type="checkbox" checked="" name="sameadr" required/> Confirm Details
+                    </label> */}
                     <input type="submit" value="Continue to checkout" class="btn-pay" />
 
                 </div>

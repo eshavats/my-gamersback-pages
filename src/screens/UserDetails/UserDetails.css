@@ -56,10 +56,12 @@
 
 .wrapper .rightUser{
   width: 70%;
-  background: white;
+  background: black;
   padding: 30px 25px;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
+  border: solid 1px white;
+  border-left: none;
 }
 
 .wrapper .rightUser .info,
@@ -76,10 +78,10 @@
   margin-bottom: 15px;
   padding-bottom: 5px;
   border-bottom: 1px solid #e0e0e0;
-  color: #353c4e;
+  color: #e0e0e0;
   text-transform: uppercase;
   letter-spacing: 5px;
-  font-size: 2vw;
+  font-size: 1.5vw;
 }
 
 .wrapper .rightUser .info_data {
@@ -99,9 +101,9 @@
 
 .wrapper .rightUser .info_data .data h4,
 .wrapper .rightUser .history_data .data h4{
-    color: #353c4e;
+    color: #e0e0e0;
     margin-bottom: 5px;
-    font-size: 1.5vw;
+    font-size: 1.1vw;
 }
 
 .wrapper .rightUser .info_data .data p,
@@ -118,7 +120,7 @@
 
 .wrapper .rightUser .history .booking-btn a {
     color: white;
-    font-size: 1.5vw;
+    font-size: 1.2vw;
 }
 
 .wrapper .rightUser .history .booking-btn a:hover {

@@ -13,17 +13,30 @@
 
 #events-div .events-heading {
     font-family: 'DM Mono', monospace;
-    font-size: 5vw;
-    letter-spacing: 2px;
+    font-size: 2.7vw;
+    /* letter-spacing: 2px; */
     display: inline-block;
-    color: #414141;
+    color: #9d0b0b;
     font-weight: lighter;
-    margin-top: 3%;
+    margin-top: 2%;
 }
+
+#events-div .events-heading .heading-white {
+    color: white;
+}
+
+#events-div .rule {
+    font-size: 2vw;
+    width: 20%;
+    height: 0.2vw;
+    background-color: white;
+    margin-left: 40%;
+}
+
 
 #events-div .tour-para {
     color: white;
-    font-size: 2vw;
+    font-size: 1.7vw;
 }
 
 /* .marquee-img {
@@ -55,7 +68,7 @@ marquee {
 
 #events-div .search-label {
     color: white;
-    font-size: 1.7vw;
+    font-size: 1.5vw;
     text-align: center;
 }
 

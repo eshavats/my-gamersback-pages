@@ -115,7 +115,8 @@ const Events = () => {
                 </div>
             </div>
 
-            <h1 className="events-heading">DAILY TOURNAMENTS</h1>
+            <h1 className="events-heading"><span className="heading-white">DAILY</span> TOURNAMENTS</h1>
+            <hr className="rule heading-white" />
             <p className="tour-para">Join, play and win. Happy gaming!</p>            
             <div className="events-container" style={{ marginBottom: "5%" }}>
                 <Card 
@@ -166,7 +167,7 @@ const Events = () => {
                     button="Book Now"
                 />
             </div>
-            <h1 className="events-heading ">EVENTS RECOMMENDED FOR YOU</h1>
+            <h1 className="events-heading "><span className="heading-white">EVENTS</span> RECOMMENDED FOR YOU</h1>
             <div className="events-container">
                 <Card 
                     imageSrc="images/event6.jpg"

@@ -18,13 +18,13 @@
   }
 
   #main-card .card-text {
-    font-size: 2.3vw;
+    font-size: 1.7vw;
     text-align: center;
     padding: 3%; 
   }
 
   #main-card .small-text {
-    font-size: 2vw;
+    font-size: 1.3vw;
     color: white;
   }
 
@@ -35,12 +35,9 @@
     background-color: #9d0b0b;
   }
 
-  #main-card .btn-1 {
+  #main-card .btn-1, #main-card  .btn-2 {
     margin-right: 2%;
-  }
-
-  #main-card  .btn-2 {
-    margin-left: 2%;
+    font-size: 1.1vw;
   }
 
   #main-card .buttons {

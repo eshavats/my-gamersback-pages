@@ -1,16 +1,26 @@
 #payment {
     font-family: Arial;
-    font-size: 17px;
+    /* font-size: 2vw; */
     background-image: url("./images/bar.png");
     height: 100%;
   }
 
 #payment h2 {
-      color: white;
-      letter-spacing: 1vw;
-      font-size: 3vw;
+      color: #9d0b0b;
+      letter-spacing: 0.5vw;
+      font-size: 3.3vw;
       display: inline-block;
+      font-weight: bold;
   }
+
+  #payment h3 {
+    color: white;
+    font-size: 1.7vw;
+    letter-spacing: 2.5px;
+    display: inline-block;
+    margin-bottom: 5%;
+
+}
 
   #payment .heading {
     text-align: center;
@@ -47,9 +57,9 @@
   }
 
   #payment .container {
-    background-color: #f2f2f2;
+    background-color: black;
     padding: 20px 20px 15px 20px;
-    border: 1px solid lightgrey;
+    border: 1px solid #9d0b0b;
     border-radius: 3px;
   }
 
@@ -57,14 +67,23 @@
     width: 100%;
     margin-bottom: 20px;
     padding: 12px;
-    border: 1px solid #ccc;
+    border: 1px solid #9d0b0b;
     border-radius: 3px;
+  }
+
+  #payment input {
+    background-color: black;
+  }
+
+  #payment input:focus {
+    background-color: white;
   }
 
   #payment .pay-label {
     margin-bottom: 10px;
     display: block;
-    color: black;
+    color: #dddddd;
+    font-size: 1.2vw;
   }
 
   #payment .icon-container {
@@ -77,16 +96,16 @@
     background-color: #9d0b0b;
     color: white;
     padding: 12px;
-    margin: 10px 0;
+    margin: 2% 33%;
     border: none;
-    width: 100%;
+    width: 35%;
     border-radius: 3px;
     cursor: pointer;
     font-size: 17px;
   }
 
   #payment .btn-pay:hover {
-    background-color: black;
+    background-color: #6a0000;
     color: white;
   }
 
@@ -95,7 +114,7 @@
   }
 
   #payment hr {
-    border: 1px solid lightgrey;
+    border: 1px solid #9d0b0b;
   }
 
   #payment span.price {

@@ -4,7 +4,7 @@ nav {
 
 #logo-name {
     font-family: 'Squada One', cursive;
-    font-size: 400%;
+    font-size: 3.5vw;
     letter-spacing: 2px;
     color: #9d0b0b;
 }
@@ -22,7 +22,7 @@ nav a {
 }
 
 nav .dropdown {
-    font-size: 2.2vw;
+    font-size: 1.7vw;
 }
 
 nav .dropdown a:hover {
